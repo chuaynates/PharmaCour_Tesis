@@ -1,0 +1,87 @@
+.card-perfil {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(159, 218, 230, 0.2);
+  border-top-width: 0;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: -2px 4px 17px 4px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: -2px 4px 17px 4px rgba(0, 0, 0, 0.17);
+  box-shadow: -2px 4px 17px 4px rgba(0, 0, 0, 0.17);
+}
+
+.card.people .card-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  line-height: 29px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.822);
+}
+
+.card-perfil .card-header img {
+  max-height: 250px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid rgba(99, 99, 99, 0.3);
+}
+
+.card.hovercard .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .titulo {
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1;
+  color: #a1a1a1;
+  vertical-align: middle;
+  text-decoration: none !important;
+}
+
+.nombre-perfil:hover {
+  color: #737373;
+}
+
+.nombre-perfil {
+  text-decoration: none !important;
+  color: #999;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card.hovercard .info .descripcion {
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+  padding: 10px;
+}

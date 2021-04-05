@@ -1,0 +1,20 @@
+.titulo-navbar2 {
+    height: 90px;
+    background-image: url(https://www.onblastblog.com/wp-content/uploads/2017/08/blogger-logo.jpg);
+    background-size: 150px;
+}
+
+.titulo-info {
+    height: 5px;
+    background-color: #00bf6693;
+}
+
+.text-titulo {
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+.titulo-informacion {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.categorias-boton[aria-expanded="true"]{
+    color:#66CC33 !important;
+}
+
+.categorias-header{
+    background-color: #5d5d5d !important;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.btn-categoria {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}

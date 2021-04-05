@@ -1,0 +1,108 @@
+.card-deck .tarjeta .tarjeta-imagen{
+    position: relative;
+    height: 260px !important;
+    width: 290px;
+}
+
+.card-deck:hover .tarjeta .tarjeta-imagen{
+    height: 500px;
+    width: 500px;
+}
+
+.card-deck{
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap !important;
+    padding: 10px !important;
+    margin-bottom: 20px;
+    height: 360px;
+}
+
+.card-deck .tarjeta{
+    position: relative;
+    max-width: 290px;
+    height: auto;
+    background:#ffffff; /* Color de la tarjeta */
+    margin: 0px 10px;
+    padding: 0px 0px;
+    display: flex;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card-deck:hover .tarjeta {
+    height: auto;
+    top: 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.card-deck .tarjeta .tarjeta-imagen{
+    cursor: pointer;
+}
+
+.card-deck .tarjeta .tarjeta-imagen:active{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.card-deck .tarjeta .button
+{
+    position: relative;
+    height: 0px;
+    padding: 0px;
+    content: none;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #f19483;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.card-deck .tarjeta h5{
+    text-transform: uppercase;
+
+}
+
+.card-deck:hover .tarjeta .button {
+    visibility: visible !important;
+    opacity: 2 !important;
+    height: auto !important;
+    padding: auto !important;
+}
+
+.imagen-none{
+    height: 90%;
+    width: 90%;
+}
+
+@media (max-width: 750px) {
+    .imagen-none{
+        height: auto;
+        width: 70vw;
+    }
+    #pregunta {
+        animation: pregunta 1s infinite linear;
+    }
+}
+
+
+#pregunta {
+    animation: pregunta 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box ;
+}
+
+@keyframes pregunta {
+    from{
+        transform:  rotateZ(0deg);
+    }
+    to {
+        transform:  rotateZ(360deg);
+    }
+}

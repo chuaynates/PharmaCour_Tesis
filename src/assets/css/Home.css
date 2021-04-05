@@ -1,0 +1,128 @@
+/* .img_fondo {
+    background-image: url("../img/pharmahome.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+.wave {
+    background-image: url("../img/wavea.svg");
+    height: 80%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+}
+
+.H2 {
+    margin-bottom: 0px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 41pt;
+    font-family: 'poppins', sans-serif;
+}
+
+.H3 {
+    position: relative;
+    font-size: 20pt;
+    font-family: 'poppins', sans-serif;
+    color: #0051A3;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.boton-inicio {
+    font-weight: 500;
+    margin-top: -90px;
+    margin-left: 21vw;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.texto-inicio {
+    padding: 10px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 100px;
+    -webkit-transition: background .3s, border .3s, -webkit-border-radius .3s, -webkit-box-shadow .3s;
+    transition: background .3s, border .3s, -webkit-border-radius .3s, -webkit-box-shadow .3s;
+    -o-transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, -webkit-border-radius .3s, -webkit-box-shadow .3s;
+}
+
+.doc {
+    background-image: url("../img/homedoc.png");
+    height: 900px;
+    width: 50%;
+    right: -25px;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+}
+
+.img_fondo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.botones_inicio {
+    position: relative;
+    margin-right: 2vw;
+}
+
+.logo_dar {
+    font-size: 50px;
+    font-family: "Segoe UI";
+    color: white;
+    margin-left: 3%;
+    position: relative;
+}
+
+.frase_q {
+    font-size: calc(1.5em + 1vw);
+    color: rgb(45, 53, 53);
+    font-family: "Gill Sans";
+    margin-top: 2vw;
+    margin-left: 2vw;
+    font-weight: 500;
+    position: relative;
+}
+
+.frase_q2 {
+    text-align: center;
+    font-size: calc(1.5em + 1vw);
+    font-weight: 500;
+    margin-top: 30vh;
+    margin-left: 8vw;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #dee7e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

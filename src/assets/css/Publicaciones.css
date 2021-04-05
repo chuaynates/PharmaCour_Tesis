@@ -1,0 +1,100 @@
+.img-perfil {
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+  background: transpar;
+}
+
+.tarjeta {
+  -webkit-box-shadow: -2px 4px 17px 4px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: -2px 4px 17px 4px rgba(0, 0, 0, 0.17);
+  box-shadow: -2px 4px 17px 4px rgba(0, 0, 0, 0.17);
+  margin-top:20px;
+}
+
+.publicacion-imagen {
+  border-radius: 0 !important;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.publicacion-imagen:active {
+  transform: scale(1.1);
+  border-radius: 10px !important;
+}
+
+.card-text {
+  font-size: small;
+}
+
+.card-footer a {
+  background: transparent;
+  border: none;
+}
+
+.card-footer a {
+  color: gray !important;
+}
+
+.card-footer .like:hover {
+  color: red !important;
+  cursor: pointer;
+}
+
+.card-footer .comentario:hover {
+  color: rgb(85, 85, 85) !important;
+  cursor: pointer;
+}
+
+.card-footer .compartir:hover {
+  color: rgb(92, 75, 250) !important;
+  cursor: pointer;
+}
+
+.nombre {
+  text-decoration: none !important;
+  color: #949393;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.nombre:hover {
+  text-decoration: none !important;
+  color: #6d6c6c;
+}
+
+.fecha {
+  font-size: small;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.comentario-publicacion-imagen {
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 40%;
+  transition: 0.5s linear;
+}
+
+.comentarios-imagen .comentario-perfil {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid rgba(99, 99, 99, 0.3);
+}
+
+.comentario-texto{
+  font-size: 12px;
+}
+
+.comentarios-scroll {
+  max-height: 450px !important;
+  overflow-y: auto !important;
+}

@@ -1,0 +1,19 @@
+.titulo-navbar {
+    height: 150px;
+    background-image: url(..//img/medicamentoslogos.jpg);
+}
+
+.titulo-info {
+    height: 5px;
+    background-color: #00bf6693;
+}
+
+.text-titulo {
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+.titulo-informacion {
+    display: flex;
+    align-items: center;
+}

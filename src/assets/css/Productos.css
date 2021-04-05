@@ -1,0 +1,163 @@
+ @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+ .productos {
+     overflow-y: auto;
+ }
+ 
+ .productos-scroll {
+     max-height: 100vh !important;
+     overflow-y: auto !important;
+ }
+ 
+ .tarjeta-imagen {
+     position: relative;
+     height: 400px !important;
+     max-height: 600px;
+ }
+ 
+ .producto-imagen {
+     position: relative;
+     height: 350px !important;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-width: 100% !important;
+     transition: 0.5s linear;
+ }
+ 
+ .producto-editar-imagen {
+     position: relative;
+     height: auto;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-width: 40%;
+     transition: 0.5s linear;
+ }
+ 
+ .producto-name {
+     font-size: 24px;
+     font-family: "Roboto Condensed", sans-serif;
+ }
+ 
+ .producto-precio {
+     font-weight: 700;
+ }
+ 
+ .producto-proveedor {
+     font-size: 14px;
+     font-family: "Roboto Condensed", sans-serif;
+     color: rgb(121, 116, 116);
+ }
+ 
+ .producto-stock {
+     font-size: 18px;
+     font-family: "Roboto Condensed", sans-serif;
+ }
+ 
+ .producto-stock-success {
+     border-radius: 5px;
+     background-color: #69b14d;
+ }
+ 
+ .producto-stock-warning {
+     border-radius: 5px;
+     background-color: #c0c759;
+ }
+ 
+ .producto-stock-danger {
+     border-radius: 5px;
+     background-color: #e26e5a;
+ }
+ 
+ .producto-tarjeta {
+     box-shadow: 1px 6px 25px -8px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .producto-gradient {
+     visibility: hidden;
+     opacity: 0;
+     width: 100%;
+     height: 100%;
+     transition: 0.5s linear;
+ }
+ 
+ .btn-editar {
+     visibility: hidden;
+     opacity: 0;
+     align-items: center;
+     transition: 0.3s linear;
+ }
+ 
+ .btn-eliminar {
+     visibility: hidden;
+     opacity: 0;
+     align-items: center;
+     transition: 0.3s linear;
+ }
+ 
+ .producto-imagen:hover .producto-gradient {
+     visibility: visible;
+     opacity: 2;
+     width: 100%;
+     height: 100%;
+     background: rgba(16, 27, 88, 0.664);
+     max-height: 600px;
+     min-width: 100% !important;
+     transition: 0.5s linear;
+ }
+ 
+ .producto-imagen:hover .btn-eliminar {
+     visibility: visible !important;
+     opacity: 2;
+     background: rgb(255, 53, 53) !important;
+     color: rgb(255, 255, 255) !important;
+     font-size: 20px !important;
+     font-family: "Roboto Condensed", sans-serif !important;
+     transition: 0.3s linear !important;
+ }
+ 
+ .producto-imagen:hover .btn-editar {
+     visibility: visible !important;
+     opacity: 2;
+     background: rgb(255, 255, 255) !important;
+     color: rgb(38, 41, 40) !important;
+     font-size: 20px !important;
+     font-family: "Roboto Condensed", sans-serif !important;
+     transition: 0.3s linear !important;
+ }
+ 
+ .producto-categoria {
+     border-radius: 5px;
+     background-color: #f7a72f;
+ }
+ 
+ .producto-body {
+     min-height: 17rem !important;
+     height: 17rem !important;
+ }
+ 
+ @media (max-width: 1400px) {
+     .producto-img {
+         height: 400px !important;
+     }
+     .producto-imagen {
+         height: 250px !important;
+     }
+     .producto-editar-imagen {
+         height: auto !important;
+         min-width: 50%;
+     }
+ }
+ 
+ @media (max-width: 767px) {
+     .producto-imagen {
+         height: 350px !important;
+         min-width: 100%;
+     }
+     .producto-editar-imagen {
+         display: none;
+         height: 250px !important;
+         min-width: 100%;
+     }
+ }

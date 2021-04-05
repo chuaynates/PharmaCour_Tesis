@@ -1,0 +1,38 @@
+.botton-publicar {
+    background-color: #154360;
+    color: white;
+    border: rgb(16, 17, 17);
+    border-radius: 10px;
+    height: 35px;
+    width: 20%;
+    float: right !important;
+}
+
+.pub-card {
+    width: 75%;
+    float: right;
+    margin-top: 10px;
+}
+
+.avatar-pub img {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 70px;
+    height: 70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid rgba(99, 99, 99, 0.3);
+}
+
+.imagen-publicar-preview {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.imagen-preview__image {
+    display: none !important;
+}
